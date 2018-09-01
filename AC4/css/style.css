@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+#header {
+background-color:#6495ED;
+position:absolute;
+top:0;
+left:0;
+right:0;
+font-family:'Lato';
+padding:20px;
+color:#fff;
+font-size:24px;
+font-weight:600;
+text-align:center;
+z-index:10;
+}
+
+.titulo_header {
+    font-size:25px;
+}
+
+#form_area {
+position:relative;
+top:200px;
+text-align:center;
+opacity:1;
+}
+
+.box_main{
+width:500px;
+margin:auto;
+margin-bottom:50px;
+box-shadow:0px 4px 20px rgba(0, 0, 0, 0.15);
+padding:10px;
+}
+
+.texto_form{
+color:#191919;
+font-family:'Lato';
+font-weight:700;
+opacity:0.6;
+border-style:groove;
+border-top:none;
+border-left:none;
+border-right:none;
+padding:24px;
+width:180px;
+margin:auto;
+border-width:1px;
+}
+
+.conteudo{
+padding:10px;
+margin:10px;
+display:inline-block
+}
+
+::placeholder{
+color: #fff;
+}
+
+#input_blue{
+background-color: #6495ED;
+color: #fff;
+font-weight: bold;
+}
+
+
+input[class|="inputs"] {
+border-radius:5px;
+padding:10px;
+width:240px;
+overflow:hidden;
+border-style:groove;
+opacity:0.5;
+font-family:'Lato';
+font-weight:400;
+font-size:16px;
+position:relative;
+margin:5px;
+}
+input[class|="inputs"]:focus{
+outline:none;
+opacity:0.7;
+background-color: #fff !important;
+font-style: italic;
+color:#191919 !important;
+}
+input[class|="inputs_submit"] {
+border-radius:5px;
+background-color:#0c541f;
+border-color:#116b29;
+color:#F3F3F3;
+padding:10px;
+width:240px;
+overflow:hidden;
+border-style:groove;
+opacity:0.5;
+font-family:'Lato';
+font-weight:400;
+font-size:16px;
+position:relative;
+margin:5px;
+}
+input[class|="inputs_submit"]:focus {
+outline:none;
+opacity:0.7;
+}

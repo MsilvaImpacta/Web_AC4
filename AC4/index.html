@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+      <header id="header">
+        <h1 class="titulo_header">Instituição XXX</h1>
+      </header>
+      <div id="form_area">
+        <div class="box_main">
+         <p class="texto_form">Cadastro de alunos</p>
+         <div class="conteudo">
+           <form>
+              <input class="inputs" type="text" placeholder="Nome completo" id="input_blue" maxlength="20"/><br>
+              <input class="inputs" type="text" placeholder="Endereço" id="input_blue" maxlength="20"/><br>
+              <input class="inputs" type="text" placeholder="Cidade" id="input_blue"/><br>
+              <input class="inputs" type="text" placeholder="UF" id="input_blue"/><br>
+              <input class="inputs" type="text" placeholder="RG" id="input_blue"/><br>
+              <input class="inputs" type="text" placeholder="CPF" id="input_blue" maxlength="11"/><br>
+              <input class="inputs" type="email" placeholder="E-mail" id="input_blue" maxlength="20"/><br>
+              <br>
+              <label><strong>Redes sociais :</strong></label>
+              <input type="checkbox" name="redes_sociais" value="Facebook"> Facebook
+              <input type="checkbox" name="redes_sociais" value="Twitter"> Twitter 
+              <input type="checkbox" name="redes_sociais" value="Whatsapp"> Whatsapp 
+              <input type="checkbox" name="redes_sociais" value="Outros"> Outros
+              <br>
+              <br>
+              <label><strong>Cursos :</strong></label>
+              <input type="radio" name="curso" value="Redes"> Redes
+              <input type="radio" name="curso" value="ADS"> ADS 
+              <input type="radio" name="curso" value="SI"> SI
+              <br>
+              <br>
+              <textarea maxlength="20" rows="5" cols="50"></textarea>
+              <input type="submit" class="inputs_submit" value="Cadastrar"/>
+           </form>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
